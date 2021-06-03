@@ -1,12 +1,10 @@
 import React from 'react';
+import { NewNoteInput } from './NewNoteInput';
 
 function App() {
   return (
     <>
-      <div>
-        <input type='text' name='note' placeholder='Note'/>
-        <button> Add Note</button>
-      </div>
+      <NewNoteInput/>
       <hr/>
       <ul>
         <li>Some Note</li>
